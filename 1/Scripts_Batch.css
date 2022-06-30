@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: url(batch.png) no-repeat center center fixed;
+    line-height: 1.5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-filter: contrast(150%);
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-text-stroke: 1px black;
+    color: #fff;
+    position: relative;
+    top: 10px;
+}
+
+.btn1 {
+    position: relative;
+    top: 4em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn1:hover,
+.btn1:focus,
+.btn1:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+.btn2 {
+    position: relative;
+    top: 5em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 240px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn2:hover,
+.btn2:focus,
+.btn2:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+.btn3 {
+    position: relative;
+    top: 6em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn3:hover,
+.btn3:focus,
+.btn3:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+.btn4 {
+    position: relative;
+    top: 7em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn4:hover,
+.btn4:focus,
+.btn4:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+.btn5 {
+    position: relative;
+    top: 8em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn5:hover,
+.btn5:focus,
+.btn5:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+.btn6 {
+    position: relative;
+    top: 9em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn6:hover,
+.btn6:focus,
+.btn6:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+.btn7 {
+    position: relative;
+    top: 10em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn7:hover,
+.btn7:focus,
+.btn7:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+.btn8 {
+    position: relative;
+    top: 11em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn8:hover,
+.btn8:focus,
+.btn8:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+.btn9 {
+    position: relative;
+    top: 12em;
+    left: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10 px rgb(0, 255, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transform: translate(-50%, 50%);
+}
+
+.btn9:hover,
+.btn9:focus,
+.btn9:active {
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: translate(-50%, 40%);
+}
+
+
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6,
+.a7,
+.a8,
+.a9 {
+    color: white;
+    background: transparent;
+}
